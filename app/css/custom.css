@@ -97,7 +97,7 @@
     font-size: 13pt;
     margin-top: 0px;
     clear: both;
-    background-color: #dedede;
+    background-color: #eee5e9;
     height: 150px;
     width: 100%;
     bottom: 0;
@@ -106,7 +106,7 @@
 .TopxsFooter {
     margin-top: 0px;
     clear: both;
-    background-color: #dedede;
+    background-color: #eee5e9;
     height: 150px;
     bottom: 0;
     padding: 45px 0px;
@@ -114,7 +114,7 @@
 .TopxxsFooter {
     margin-top: 0px;
     clear: both;
-    background-color: #dedede;
+    background-color: #eee5e9;
     height: 150px;
     bottom: 0;
     padding: 55px 0px;
@@ -185,7 +185,7 @@
 .socialFooter {
     margin-top: 0px;
     clear: both;
-    background-color: #000000;
+    background-color: #2b303a;
     height: 60px;
     width: 100%;
     bottom: 0;
@@ -222,28 +222,28 @@
 
 /* Theme CSS Edits */
 .container .navbar-nav li.active a:hover {
-  background-color: #DC291E; /*#A8AB00*/
+  background-color: #92dce5; /*#A8AB00*/
 }
 .container .navbar-nav li.active a:focus {
-  background-color: #DC291E; /*#A8AB00*/;
+  background-color: #92dce5; /*#A8AB00*/;
 }
 .navbar-default .navbar-nav .open > a {
-  background-color: #DC291E; /*#A8AB00*/
+  background-color: #92dce5; /*#A8AB00*/
 }
 .navbar-default .navbar-nav .open > a:hover {
-  background-color: #DC291E; /*#A8AB00*/
+  background-color: #92dce5; /*#A8AB00*/
 }
 .navbar-default .navbar-nav .open > a:focus {
-  background-color: #DC291E; /*#A8AB00*/
+  background-color: #92dce5; /*#A8AB00*/
 }
 .navbar-nav li.dropdown li > a:hover {
-  background-color: #DC291E; /*#A8AB00*/
+  background-color: #92dce5; /*#A8AB00*/
 }
 .navbar-nav li.dropdown li > a:focus {
-  background-color: #DC291E; /*#A8AB00*/
+  background-color: #92dce5; /*#A8AB00*/
 }
 .navbar .container .navbar-nav li.active .fa-caret-down {
-  color: #DC291E; /*#A8AB00*/
+  color: #92dce5; /*#A8AB00*/
 }
 .navbar-nav li.dropdown li > a {
   color: #333333;
@@ -262,13 +262,13 @@
   color: #FFFFFF;
 }
 .navbar-default {
-  background-color: #000000; /*0B3648*/
+  background-color: #2b303a; /*0B3648*/
 }
 .container .navbar-nav li a {
   color: #FFFFFF;
 }
 .container .navbar-nav li.active > a {
-  background-color: #DC291E; /*#A8AB00*/
+  background-color: #92dce5; /*#A8AB00*/
 }
 .container .navbar-nav li.active > a {
   color: undefined;
@@ -283,7 +283,7 @@ body {
   color: #333333;
 }
 .text-primary {
-  color: #000000;
+  color: #2b303a;
 }
 .text-info {
   color: #31708F;
