@@ -83,14 +83,14 @@
     margin-left:25px;
 }
 /* Adjust product list border/backgrounds $ak */
-.panel-product-list {
+/*.panel-product-list {
     border: none;
     border-radius: 0px;
     border-color: transparent;
-}
-/*.panel-product-list .well {
-  background-color: transparent;
 }*/
+.panel-product-list .well {
+  background-color: transparent;
+}
 /*.panel-product-list .aLinkSpacingFix {
   color: #333333;
 }*/
