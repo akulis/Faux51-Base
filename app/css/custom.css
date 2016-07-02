@@ -84,6 +84,7 @@
 }
 /* Adjust product list border/backgrounds $ak */
 .panel-product-list {
+    border: none;
     border-radius: 0px;
     border-color: transparent;
 }
