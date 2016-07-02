@@ -94,6 +94,7 @@
   color: #333333;
 }
 .panel-product-list .well {
+  border: none;
   border-color: transparent;
 }
 /*Changes size of images on category page*/
