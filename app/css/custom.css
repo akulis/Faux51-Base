@@ -400,7 +400,7 @@ h2 .jumbotron {
 .panel-product-list .well {
   background-color: transparent;
 }
-.panel-product-list ul .well {
+.panel-product-list ul .aLinkSpacingFix {
   border: none;
   border-color: transparent;
 }/*Changes size of images on category page*/
