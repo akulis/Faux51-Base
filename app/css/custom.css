@@ -82,6 +82,26 @@
     list-style-type: circle;
     margin-left:25px;
 }
+/* Adjust product list border/backgrounds $ak */
+.panel-product-list {
+    border-radius: 0px;
+    border-color: transparent;
+}
+.panel-product-list .well {
+  background-color: transparent;
+}
+.panel-product-list .aLinkSpacingFix {
+  color: #333333;
+}
+.panel-product-list .well {
+  border-color: transparent;
+}
+/*Changes size of images on category page*/
+.thumbnail img {
+  max-height: 100px; /*must match smallest size of thumbnail image*/
+  max-width: 100%;
+  margin: 0 auto 15px;
+}
 /*Footer CSS*/
 * {
     margin: 0;
@@ -397,15 +417,8 @@ h2 .jumbotron {
   border-color: #F7F7F7;
 }
 .panel-product-list .well {
-  background-color: #FFFFFF;
-}
-.panel-product-list .well {
   color: #333333;
 }
-.panel-product-list .well {
-  border-color: #F7F7F7;
-}
-
 /* Float Shadow */
 .hvr-float-shadow {
     display: inline-block;
