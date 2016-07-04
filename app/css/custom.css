@@ -41,6 +41,23 @@
     color: #ffffff;
     opacity: 0.95;
 }
+.popUpButton {
+    background: #af1f31 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 40px;
+    box-shadow: 0 -3px rgba(0, 0, 0, 0.1) inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px 200px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 200ms ease 0s;
+}
 
 /* Navbar Drop Shadow */
 .navbarDropShadow {
