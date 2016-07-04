@@ -20,6 +20,27 @@
     max-width: 100%;
     height: auto;
 }
+/* View Product Popup */
+.viewProductPopUp {
+    display: none !important;
+}
+.viewProductPopUp {
+    background-color: #888;
+    bottom: 18px;
+    color: #fff;
+    display: none;
+    left: 0;
+    opacity: 0.85;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%; 
+}
+.viewProductPopUp:hover {
+    background-color: #af1f31;
+    color: #ffffff;
+    opacity: 0.95;
+}
 
 /* Navbar Drop Shadow */
 .navbarDropShadow {
