@@ -131,14 +131,14 @@
 
                     <!--  Test Page Links -->
                     <!-- If Anonymous User -->
-                    <li class="contactus" ng-if="user.Permissions.contains('ViewTest')" ng-hide="user.Type == 'Customer'" ng-class="{'active': isActive('test')}">
+                    <li class="test" ng-if="user.Permissions.contains('ViewTest')" ng-hide="user.Type == 'Customer'" ng-class="{'active': isActive('test')}">
                         <a id="451qa_mesg_link" href="test">
                             <i class="fa fa-bolt"></i>
                             <span class="hidden-xs">{{'Test' | r | xlat}}</span>
                         </a>
                     </li>
                     <!-- If Logged In -->
-                    <li class="contactus" ng-if="user.Permissions.contains('ViewTest')" ng-show="user.Type == 'Customer'" ng-class="{'active': isActive('test')}">
+                    <li class="test" ng-if="user.Permissions.contains('ViewTest')" ng-show="user.Type == 'Customer'" ng-class="{'active': isActive('test')}">
                         <a id="451qa_mesg_link" class="hidden-xs hidden-sm" href="test">
                             <i class="fa fa-bolt"></i>
                             {{'Test' | r | xlat}}
