@@ -137,17 +137,11 @@
                             <span class="hidden-xs">{{'Test' | r | xlat}}</span>
                         </a>
                     </li>
-                    <li class="test" ng-hide="user.Type == 'Customer'" ng-class="{'active': isActive('test')}">
-                        <a id="451qa_mesg_link" href="test">
-                            <i class="fa fa-bolt"></i>
-                            <span class="hidden-xs">{{'Test' | r | xlat}}</span>
-                        </a>
-                    </li>
                     <!-- If Logged In -->
                     <li class="test" ng-show="user.Type == 'Customer'" ng-class="{'active': isActive('test')}">
                         <a id="451qa_mesg_link" class="hidden-xs hidden-sm" href="test">
                             <i class="fa fa-bolt"></i>
-                            {{'Test' | r | xlat}}
+                            <span class="hidden-xs">{{'Test' | r | xlat}}</span>
                         </a>
                     </li>
 
@@ -163,7 +157,7 @@
                     <li class="contactus" ng-if="user.Permissions.contains('ViewContactUs')" ng-show="user.Type == 'Customer'" ng-class="{'active': isActive('contactus')}">
                         <a id="451qa_mesg_link" class="hidden-xs hidden-sm" href="contactus">
                             <i class="fa fa-support"></i>
-                            {{'Help' | r | xlat}}
+                            <span class="hidden-xs">{{'Help' | r | xlat}}</span>
                         </a>
                     </li>
                 </ul>
